@@ -25,12 +25,8 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'bWipbhXoLmyg-2hLqRtsgV8puLDJ1mR_Jb5sTg8Un14',
       festivals: [       
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '*生日', name: '小宝', year: '2004', date: '05-05,
-        },
          {
-          type: '生日', name: '小宝', year: '2004', date: '06-22,
+          type: '生日', name: '小宝', year: '2004', date: '06-22',
         },
         {
           type: '节日', name: '相识纪念日', year: '2021', date: '09-09',
